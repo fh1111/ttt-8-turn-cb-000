@@ -19,11 +19,14 @@ def input_to_index(input)
 
 end
 
-display_board(['X','X','X','O','O','O','X','X','X'])
-
-def valid_move?
 
 
+def valid_move? (board,index)
+
+  if (board[index]=="")
+    true
+  else
+    false
 
 end
 
@@ -37,3 +40,6 @@ end
 def move
 
 end
+
+
+display_board(['X','X','X','O','O','O','X','X','X'])
