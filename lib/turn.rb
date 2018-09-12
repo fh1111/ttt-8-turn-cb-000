@@ -21,9 +21,9 @@ end
 
 
 
-def valid_move? (board,index)
+def valid_move? (index)
 
-  if (board[index]=="")
+  if ((index >= 0) && (index <=8)
     true
   else
     false
