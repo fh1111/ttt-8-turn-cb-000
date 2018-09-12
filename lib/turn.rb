@@ -43,7 +43,7 @@ def turn(board)
 
 
   while invalid
-    puts "Please enter 1-9:\n"
+    puts "Please enter 1-9:"
     input=gets
     index=input_to_index(input)
     invalid=!valid_move?(board,index)
