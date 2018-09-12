@@ -31,16 +31,18 @@ def valid_move? (board,index)
 
 end
 
+def move(board,index,selection)
 
+  board[index]=selection
+
+end
 
 def position_taken?
 
 end
 
 
-def move
 
-end
 
 
 display_board(['X','X','X','O','O','O','X','X','X'])
