@@ -39,7 +39,7 @@ end
 
 def turn(board)
 
-  invalid=True
+  invalid=true
 
 
   while invalid
