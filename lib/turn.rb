@@ -27,6 +27,7 @@ def valid_move? (index)
     true
   else
     false
+  end
 
 end
 
