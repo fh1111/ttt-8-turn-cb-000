@@ -39,10 +39,10 @@ end
 
 def turn(board)
 
-  valid=false
+  invalid=True
 
 
-  while valid
+  while invalid
     puts "Please enter 1-9:"
     input=gets
     index=input_to_index(input)
