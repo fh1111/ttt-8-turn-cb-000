@@ -65,5 +65,5 @@ end
 
 
 
-
-display_board(['X','X','X','O','O','O','X','X','X'])
+turn(['X','X','X','O','O','O','X','X','X'])
+#display_board(['X','X','X','O','O','O','X','X','X'])
