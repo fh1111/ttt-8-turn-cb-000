@@ -51,10 +51,8 @@ def turn(board)
 
   end
 
-
-  if !invalid
     move(board,index)
-  end
+
 
 end
 
