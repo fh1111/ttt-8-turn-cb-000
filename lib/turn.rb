@@ -65,5 +65,8 @@ end
 
 
 
-turn(['X','X','X','O','O','O','X','X','X'])
-#display_board(['X','X','X','O','O','O','X','X','X'])
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+display_board(board)
+turn(board)
