@@ -31,7 +31,7 @@ def valid_move? (board,index)
 
 end
 
-def move(board,index,selection)
+def move(board,index,selection='X')
 
   board[index]=selection
 
@@ -52,7 +52,7 @@ def turn(board)
 
 
   if !invalid
-    turn(board)
+    move(board,index)
   end
 
 end
