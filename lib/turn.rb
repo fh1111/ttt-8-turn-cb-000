@@ -32,9 +32,10 @@ def valid_move? (board,index)
 
 end
 
-def move(board,index,selection='X')
+def move(board,index,selection="X")
 
   board[index]=selection
+  display_board (board)
 
 end
 
