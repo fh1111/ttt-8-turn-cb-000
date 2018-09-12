@@ -14,6 +14,7 @@ def display_board (board)
 
 end
 
+display_board(['X','X','X','O','O','O','X','X','X'])
 
 def valid_move?
 
