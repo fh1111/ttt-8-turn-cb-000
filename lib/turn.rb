@@ -50,7 +50,8 @@ def turn(board)
 
   end
 
-  if invalid
+
+  if !invalid
     turn(board)
   end
 
