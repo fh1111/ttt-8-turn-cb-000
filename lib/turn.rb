@@ -47,6 +47,9 @@ def turn(board)
     input=gets
     index=input_to_index(input)
     invalid=!valid_move?(board,index)
+    if !invalid
+      turn(board)
+    end
   end
 
 
